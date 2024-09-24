@@ -1,0 +1,39 @@
+.box,.minibox{
+    width: 150px;
+    height: 150px;
+    border: 1px solid black;
+}
+.box{
+    position: relative;
+    margin: 100px auto;
+}
+.minibox{
+    border: 1px solid ;
+    border-color: red green blue yellow;
+    position: absolute;
+    /* transform: translate(-250px , 100px); */
+    /* transform: rotate(90deg) scale(0.5); */
+    text-transform: uppercase;
+    /* transform: skew(10deg,10deg); */
+    transform: matrix(1.5,0,1,0,0,0);
+    font-size:20px;
+
+    /* transform: scale(0.5); */
+  
+
+}
+/* .btm{
+    border: none;
+    outline: none;
+    display: block;
+    margin: 0px auto ;
+    padding: 8px 10px;
+    background-color: dodgerblue;
+    color:white;
+    border-radius: 4px;
+    width: 100px;
+    text-align: center;
+}
+.btm:active{
+    transform: scale(0.9);
+} */

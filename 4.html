@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./4.css">
+</head>
+<body>
+<div class="cube">
+    <div class="tomon old">old</div>
+    <div class="tomon orqa">orqa</div>
+    <div class="tomon chap">chap</div>
+    <div class="tomon ong">o'ng</div>
+    <div class="tomon tepa">tepa</div>
+    <div class="tomon past">past</div>
+</div>
+</body>
+<script>
+    let x=0
+    let y=0
+   window.addEventListener('keypress',(e)=>{
+      if(e.keyCode===119){
+        document.querySelector(".cube").style.transform =  `rotateX(${x+=10}deg)`
+      }
+      if(e.keyCode===115){
+        document.querySelector(".cube").style.transform = `rotateX(${x-=10}deg)`
+      }
+      if(e.keyCode===97){
+        document.querySelector(".cube").style.transform = `rotatey(${y-=10}deg)`
+      }
+      if(e.keyCode===100){
+        document.querySelector(".cube").style.transform = `rotatey(${y+=10}deg)`
+      }
+      
+    })
+</script>
+<!-- <script>
+    window.addEventListener('keypress',(e)=>{
+      console.log(e.keyCode)
+    }) -->
+</script>
+</html>

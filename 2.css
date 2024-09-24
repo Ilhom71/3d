@@ -1,0 +1,33 @@
+.wraper{
+    width: 250px;
+    height: 250px;
+    position: relative;
+    border: 1px solid black;
+    margin: 200px auto;
+
+    
+}
+
+.t{
+    width: 250px;
+    height: 250px;
+    position: absolute;
+    border: 1px solid blue; 
+
+}
+.box1{
+    transform: skewX(70deg);
+}
+.box2{
+    transform: skewX(-70deg);
+}
+.box3{
+    transform: skewY(70deg);
+
+}
+.box4{
+    transform: skewY(-70deg);
+}
+.box5{
+    
+}
